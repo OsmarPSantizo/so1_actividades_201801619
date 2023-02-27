@@ -1,8 +1,8 @@
 ## PROBLEMA
-El problema de la activdad era que al momento de cargar una URL especifica se obtiene un error 404. 
+El problema de la actividad era que al momento de cargar una URL especifica se obtiene un error 404. 
 
 ## SOLUCION
-La solución a este problema consiste en que react.js maneja todas las rutas en index.js, lo que debemos hacer es cargar el archvio raíz (Que generalmente es index.html), para que todas las rutas que no coincidan, de modo que nginx envíe el archivo  y la ruta sea manejada por react. 
+La solución a este problema consiste en que react.js maneja todas las rutas en index.js, lo que debemos hacer es cargar el archivo raíz (Que generalmente es index.html), para que todas las rutas que no coincidan, de modo que nginx envíe el archivo  y la ruta sea manejada por react. 
 
 Lo primero que debemos hacer es crear una carpeta llamada nginx y dentro de ella un archivo **nginx.conf**, dentro del archivo debemos colocar el siguiente codigo 
 
