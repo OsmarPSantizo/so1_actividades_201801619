@@ -3,11 +3,9 @@
 ----
 Systemd Unit es una unidad de systemd, el sistema de inicio y administración de servicios en sistemas operativos basados en Linux. Estos son archivos de configuración en los cuales se describe como iniciarse, detenerse y administrarse un servicio específico.
 
-El Systemd 
-
 ----
 
-## Systemd se debe instalar
+## Systemd se debe instalar, podemos seguir los siguiente pasos
 1. Instalamos la herramienta
 
 ```bash
